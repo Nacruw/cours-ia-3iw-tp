@@ -1,0 +1,14 @@
+# Environnements
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+node_modules/
+
+# Secrets : jamais dans le depot
+.env
+.env.*
+
+# Systeme
+.DS_Store
